@@ -78,7 +78,7 @@ URL for example below: http://east.zxytim.com/?r=48e5020a-7b7f-11e7-b776-f23c91e
 ### Test
 run
 ```
-python eval.py --test_data_path=/tmp/images/ --gpu_list=0 --checkpoint_path=/tmp/east_icdar2015_resnet_v1_50_rbox/ \
+python eval.py --test_data_path=/tmp/images/ --gpu_list=0 --model_checkpoint_path=/tmp/east_icdar2015_resnet_v1_50_rbox/ \
 --output_path=/tmp/
 ```
 
